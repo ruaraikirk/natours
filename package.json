@@ -5,8 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
-    "star:prod": "NODE_ENV=production nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:prod": "NODE_ENV=production nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "ndb server.js"
   },
   "author": "Ruarai Kirk",
   "license": "ISC",
@@ -19,6 +20,8 @@
     "express": "^4.18.1",
     "mongoose": "^5.13.15",
     "morgan": "^1.10.0",
+    "puppeteer": "^17.1.3",
+    "ramda": "^0.28.0",
     "slugify": "^1.6.5",
     "validator": "^13.7.0"
   },
